@@ -95,13 +95,15 @@ section {
   text-align: center;
   color: white;
   padding-top: 5rem;
+  font-weight: 500;
 }
 
 .display-2 {
   color: white;
   text-align: center;
   font-size: 3rem;
-	padding-top: 1.3rem;
+  padding-top: 1.3rem;
+  font-weight: 400;
 }
 
 .display-3 {
