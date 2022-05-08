@@ -18,6 +18,7 @@ section {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 } */
+  
 
 .site-header a {
 	padding: .5rem;
@@ -40,8 +41,8 @@ section {
 /* Placement of icons */
 .turquoise-smiley {
 	position: relative;
-	top: 14rem;
-	left: 4rem;
+	top: 15vw;
+	left: 2vw;
 }
 
 .pink-smiley {
@@ -92,6 +93,7 @@ section {
 }
 
 .display-1 {
+	font-size: 5vw;
   text-align: center;
   color: white;
   padding-top: 5rem;
@@ -99,9 +101,9 @@ section {
 }
 
 .display-2 {
+	font-size: 3vw;
   color: white;
   text-align: center;
-  font-size: 3rem;
   padding-top: 1.3rem;
   font-weight: 400;
 }
@@ -109,9 +111,9 @@ section {
 .display-3 {
   color: white;
   text-align: center;
-  font-size: 2rem;
-  padding-top: 2rem;
-	padding-bottom: 7rem;
+  font-size: 2vw;
+  padding-top: 1.5rem;
+  padding-bottom: 7rem;
 }
 
 .about-Figmathon {
@@ -173,8 +175,38 @@ footer {
   .flex-md-equal > * {
     flex: 1;
   }
+}
 
-	.display-1 {
+@media (max-width: 1484px) {
+	.turquoise-smiley {
+		left: -2rem;
+	}
+	.pink-smiley {
+		left: 1rem;
+		}
+	.salmon-smiley {
+		top: 10rem;
+		right: -10rem;
+	}
+	.green-smiley {
+		top: 8rem;
+	}
+	
+}
+
+@media (max-width: 1079px) {
+	.orange-smiley {
+		display: none;
+	}
+}
+
+@media (max-width: 1199px) {
+	.about-Figmathon {
+		font-size: 1.5vw;
+	}
+}
+
+	/* .display-1 {
 		text-align: center;
 		color: white;
 		padding-top: 5rem;
@@ -194,9 +226,9 @@ footer {
 		font-size: 1rem;
 		padding-top: 2rem;
 		padding-bottom: 7rem;
-	}
+	} */
 
-	.turquoise-smiley {
+	/* .turquoise-smiley {
 		position: relative;
 		top: 14rem;
 		left: -4rem;
@@ -305,13 +337,13 @@ footer {
 		font-size: 1rem;
 		padding-top: 10rem;
 		color: white;
-	}
+	} */
 
 	/* .person {
 		width: 10rem;
 	} */
 }
 
-@media (max-width: 598px) {
+/* @media (max-width: 598px) {
 
-}
+} */
