@@ -1,13 +1,16 @@
 body {
   background-image: url(img/texture.png);
 	background-color: rgba(70, 70, 255, 0.9);
-	overflow-x: hidden;
 }
 
 /* body {
 	background-image: url("/Users/joonc/Documents/Coding/UX@UW/Figmathon-Website-UX-UW/img/texture.png");
 	background-repeat: repeat/no-repeat;
 } */
+
+main {
+	overflow-x: hidden;
+}
 
 img {
 	margin: 5px;
