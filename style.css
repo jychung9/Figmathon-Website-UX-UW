@@ -72,8 +72,8 @@ section {
 
 .salmon-smiley {
 	position: relative;
-	top: 20rem;
-	right: 4rem;
+	top: 13rem;
+	right: -10rem;
 }
 
 .squiggly {
@@ -138,6 +138,13 @@ section {
 	margin-bottom: 4rem;
 }
 
+.discord {
+	background-color: rgb(88, 101, 242);
+	color: white;
+	font-size: 1.5rem;
+	margin-bottom: 4rem;
+}
+
 .btn-primary {
 	margin-top: 3rem;
 }
@@ -168,6 +175,12 @@ h3 {
 
 h4 {
 	font-size: .8rem;
+}
+
+h5 {
+	text-indent: 2rem;
+	font-size: 20px;
+	color: gold;
 }
 
 footer {
